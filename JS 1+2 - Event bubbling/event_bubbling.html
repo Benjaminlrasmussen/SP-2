@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="event_bubbling.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+    <div id="outer">
+            <div id="div1" class="mydiv">div1</div>
+            <div id="div2" class="mydiv">div2</div>
+            <div id="div3" class="mydiv">div3</div>
+            <div id="div4" class="mydiv">div4</div>
+            <div id="div5" class="mydiv">div5</div>
+            <div id="div6" class="mydiv">div6</div>
+            <div id="div7" class="mydiv">div7</div>
+            <div id="div8" class="mydiv">div8</div>
+            <div id="div9" class="mydiv">div9</div>
+            <div id="div10" class="mydiv">div10</div>
+            <div id="div11" class="mydiv">div11</div>
+            <div id="div12" class="mydiv">div12</div>
+    </div>
+
+    <p id="p1"></p>
+
+    <div id="insert"></div>
+    <form method="post">
+        <input id="name_input" type="text">
+        <input id="name_submit" type="submit" value="Add name">
+        <input id="remove_first" type="submit" value="Remove first">
+        <input id="remove_last" type="submit" value="Remove last">
+    </form>
+
+    <div id="table_container" class="container"></div>
+    <form action="">
+        <input id="table_input" type="number">
+        <input id="table_submit" type="submit" value="Less than">
+    </form>
+
+    <script src="event_bubbling.js"></script>
+</body>
+</html>
